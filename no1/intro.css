@@ -1,0 +1,25 @@
+body {
+    background-color: lavender;
+    text-align: center;
+    font-family: Roboto, Sans-serif;
+}
+
+.intro {
+    min-width: 80%;
+    margin-top: 150px;
+
+}
+
+.intro img {
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+    opacity: 0.5;
+    box-shadow: 15px 15px lightgrey;
+    transition: opacity 1s linear 250ms;
+}
+
+.intro img:hover {
+    opacity: 1;
+}
+
