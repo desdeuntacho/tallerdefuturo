@@ -1,0 +1,191 @@
+* {
+    outline: 0px solid cyan;
+}
+
+body {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    font-family: Lato
+}
+
+header {
+    width: 95%;
+    height: px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+header img {
+    max-width: 20%;
+}
+
+header p {
+    float: right;
+    margin-right: 40px;
+    margin-top: -5px;
+    display: none;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+main img {
+    width: 55%;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+}
+
+.page-content {
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    transition: all 300ms linear;
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons-container img{
+    margin: 5px;
+}
+
+.footer-links-container {
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.footer-links-container p {
+    margin: 6px 40px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    float: left;
+    color: lightgrey;
+}
+
+.footer-links-container p a {
+    cursor: pointer;
+    transition: color 200ms linear;
+}
+
+.footer-links-container p a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgba(0,0,0,0.9);
+}
+
+
+.footer-links-container ul {
+    margin: 0px 30px 0px 0;
+    margin-right: 30px;
+    margin-bottom: px;
+    float: right;
+}
+
+.footer-links-container ul li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px;
+    padding: ;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.9);
+    transition: all 300ms linear;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.footer-links-container ul li:hover {
+    color: rgba(6,6,6,0.5);
+}
+
+.toggle {
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+    position: fixed;
+    left: 60px;
+    top: 30px;
+    transition: all 500ms ease-in-out;
+    z-index: 10;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -180px;
+    bottom: -90;
+    right: unset;
+    z-index: 1;
+    width: 120px;
+    padding-left: 30px;
+    background: white;
+    transition: all 500ms ease-in-out;
+}
+
+.sidebar ul {
+    margin-top: 80px;
+    list-style: none;
+    padding: 5px;
+
+}
+
+.sidebar li {
+    color: rgba(6,6,6,0.9);
+    transition: all 300ms linear;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 12px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.sidebar li:hover {
+    color: rgba(0,0,0,0.5);
+}
+
+#sidebartoggler {
+    display: none;
+}
+
+#sidebartoggler:checked {
+
+}
+
+#sidebartoggler:checked + .pagewrap .sidebar {
+    left: 0px;
+}
+
+#sidebartoggler:checked + .pagewrap .toggle {
+    left: 200px;
+    transform: rotateZ(-90deg);
+    transform-origin: center;
+}
+
+
+/* MEJOR SACARLO ASI QUEDA CENTRADO -.- NO SE SI ES RESPONSIVE?
+#sidebartoggler:checked + .pagewrap .page-content {
+    padding-left: 180px;
+}
+
+*/
+
