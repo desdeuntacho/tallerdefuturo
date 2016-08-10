@@ -1,0 +1,401 @@
+* {
+    outline: 0px solid cyan;
+}
+
+/*ELEMENTOS GENERAL*/
+
+body {
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+}
+
+body > div {
+    width: 100%;
+    color: rgb(54,56,57);
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+span {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 4px;
+}
+
+/* SECCION 1 - LANDING */
+
+.section-1 {
+    background-image: url(honeycomb.png);
+    background-size: cover;
+    height: 1000px;
+}
+
+.section-1 > header {
+    height: 60px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 60px;
+    float: left;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.logo p{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.section-1 > header nav {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 > header nav a {
+    margin: 15px;
+    color: grey;
+}
+
+.section-1 > main > h1 {
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.section-1-imgwrap {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section-1-imgwrap img {
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#logo {
+    width: auto;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.section-1 > main > h3 {
+    margin: auto;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.section-1 > main > p {
+    margin: auto;
+    width: 500px;
+    color:white;
+}
+
+/*SECCION 2 POST-CARROUSEL */
+
+.section-2 {
+    background-color: lightblue;
+}
+
+.section-2 > header {
+    background-color: honeydew;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    height: 215px;
+}
+
+.section-2 header p {
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section-2 main {
+    height: 430px;
+}
+
+.section-2-main-container {
+    position: relative;
+    top: -40px;
+    bottom: 15px;
+    height: 500px;
+    width: 680px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 0px 30px 5px rgba(6,6,6,0.5);
+}
+
+.section-2 main h1 {
+    float: left;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 200px;
+}
+
+.section-2 main p {
+    width: 300px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 250px;
+}
+
+.bar {
+    height: 150px;
+    width: 50px;
+    float: left;
+    border-top: 4px solid hotpink;
+    margin: 30px 20px 20px 40px;
+}
+
+.section-2 main a {
+    float: left;
+    margin-top: 40px;
+    color: hotpink;
+}
+
+.main-button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: right;
+    clear: left;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 10px;
+    font-weight: 800;
+    box-shadow: 0 0 10px 0px rgba(66,66,66,0.5);
+    cursor: pointer;
+}
+
+.section-2 footer {
+    background-color: honeydew;
+    height: 230px;
+    padding-top: 100px;
+}
+
+.section-2-footer-container {
+    width: 650px;
+    margin: auto;
+    margin-top: 0px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.col-2 {
+    width: 600px;
+    height: 140px;
+    column-count: 2;
+    column-gap: 60px;
+    column-fill: auto;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.num {
+    display: inline-block;
+    height: 150px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 0.75;
+    color: hotpink;
+    float: left;
+}
+
+.section-2-footer-button {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    bottom: 15px;
+    right: 140px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 40px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+/*SECCION 3 IMG SPLASH */
+
+.section-3 {
+    background-color: peachpuff;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-3 img {
+    width: 30%;
+}
+
+/*SECCION 4 EXTRA INFO */
+
+.section-4 {
+    background-color: lavender;
+    height: 180vh;
+    padding-top: 70px;
+}
+
+.section-4 header > h1 {
+    margin-bottom: 20px;
+}
+
+.section-4 header > p {
+    margin-bottom: 40px;
+}
+
+.section-4-header-button {
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 30px;
+    border: 1px solid lightgrey;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.section-4 footer > h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.section-4 input {
+    width: 500px;
+    height: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: lavender;
+    font-size: 18px;
+    color: grey;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+}
+
+.section-4-footer-button {
+    margin: auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 800;
+    color: hotpink;
+    background-color: honeydew;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0px rgba(66,66,66,0.5)
+}
+
+.credits {
+    background-color: grey;
+    height: 200px;
+    position: relative;
+}
+
+.credits > nav {
+    padding-top: 70px;
+}
+
+.section-4-social-icons {
+    display: inline-block;
+    margin: auto;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: lightgrey;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 0 10px 0px rgba(66,66,66,0.5)
+}
+
+.bottom {
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+
+}
+
+.bottom p {
+    height: 30px;
+    float: left;
+    margin-left: 40px;
+    color: lightgrey;
+}
+
+.bottom p span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottom nav {
+    height: 30px;
+    float: right;
+    margin-right: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.bottom nav a {
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 20px;
+    color: lightgrey;
+}

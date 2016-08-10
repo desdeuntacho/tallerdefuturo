@@ -1,0 +1,17 @@
+* {
+    border: 1px solid cyan !important;
+}
+
+body {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header > img {
+    border: 2px solid red;
+}
