@@ -108,6 +108,7 @@ h6 {
 
 .section-1-imgwrap img {
     margin: auto;
+    height: 400px;
     display: block;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -273,10 +274,11 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .section-3 img {
-    width: 30%;
+    max-height: 80%;
 }
 
 /*SECCION 4 EXTRA INFO */
