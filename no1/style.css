@@ -48,6 +48,7 @@ body {
     animation: "magic" 5s ease infinite;
     -webkit-animation: "magic" 5s ease infinite;
     -moz-animation: "magic" 5s ease infinite;
+    height: 100vh;
 }
 
 .content {
