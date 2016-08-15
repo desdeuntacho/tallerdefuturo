@@ -8,7 +8,7 @@ body {
     text-align: center;
     font-family: 'Josefin Slab', serif;
     -webkit-font-smoothing: antialiased !important;
-    -moz-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
     background-color: tomato;
     width: 100%;
     margin: auto;
